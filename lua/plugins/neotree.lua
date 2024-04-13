@@ -1,14 +1,12 @@
 return {
-  {
-    "nvim-neo-tree/neo-tree.nvim",
-    opts = {
-      filesystem = {
-        filtered_items = {
-          -- hide_dotfiles = false,
-          -- hide_hidden = false,
-          visible = true,
+    {
+        "nvim-neo-tree/neo-tree.nvim",
+        opts = {
+            filesystem = {
+                filtered_items = {
+                    visible = true,
+                },
+            },
         },
-      },
     },
-  },
 }
